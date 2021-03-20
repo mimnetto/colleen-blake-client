@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import './App.css';
 import Navbar from "./components/navbar/Navbar";
+import Top from "./components/Top";
+import Footer from "./components/Footer";
+import {Fade, Slide} from "react-awesome-reveal";
 import GlobalStyle from './styles/Global';
+import {Container, Row, Col} from 'react-bootstrap';
 import leaf from './img/leaf.png';
 
 
@@ -16,21 +20,17 @@ class App extends Component {
   }
   render() {
     return (
-    <div className="App">
-  <> <Navbar navbarState={this.state.navbarOpen} handleNavbar={this.handleNavbar}/>
-  <GlobalStyle/>
-</>
+      <div className="App">
+        <>
+          <Navbar navbarState={this.state.navbarOpen} handleNavbar={this.handleNavbar}/>
+            <GlobalStyle/>
+              </>
       <header className="App-header">
       </header>
-        <div className="Join-Us">
-          <h1 className="Join-Day">
-            Join us on October 16th, 2021
-          </h1>
-          <p>
-          Owl's Nest Resort <br />White Mountains Thornton, New Hampshire
-          </p>
-          <img className="leaf" src={leaf} alt="Logo" />
-      </div>
+      <main>
+      <Top />
+      </main>
+      <Footer/>
     </div>
   );
 }
