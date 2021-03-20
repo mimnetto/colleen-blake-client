@@ -19,9 +19,9 @@ class Top extends React.Component {
       Owl's Nest Resort <br />White Mountains Thornton, New Hampshire
       </p>
       </Fade>
-        <Slide fraction={0} direction="up" delay={3000} duration={2000}>
+        <Fade direction="up" delay={500} duration={2000}>
           <img className="leaf" src={leaf} alt="Logo" />
-        </Slide>
+        </Fade>
     </div>
   </div>
     );
