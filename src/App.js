@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {HashRouter} from "react-router-dom";
 import './App.css';
 import Navbar from "./components/navbar/Navbar";
 import Top from "./components/Top";
@@ -19,7 +20,7 @@ class App extends Component {
     });
   }
   render() {
-    return (
+    return (<HashRouter basename='/'>
       <div className="App">
         <>
           <Navbar navbarState={this.state.navbarOpen} handleNavbar={this.handleNavbar}/>
@@ -32,7 +33,7 @@ class App extends Component {
       </main>
       <Footer/>
     </div>
-  );
+  </HashRouter>);
 }
 }
 
