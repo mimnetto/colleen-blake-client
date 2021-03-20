@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/colleen-blake-client/static/css/main.3a72a553.chunk.css",
+    "main.js": "/colleen-blake-client/static/js/main.a9a9974e.chunk.js",
+    "main.js.map": "/colleen-blake-client/static/js/main.a9a9974e.chunk.js.map",
+    "runtime-main.js": "/colleen-blake-client/static/js/runtime-main.f1a3b850.js",
+    "runtime-main.js.map": "/colleen-blake-client/static/js/runtime-main.f1a3b850.js.map",
+    "static/css/2.184f8ef6.chunk.css": "/colleen-blake-client/static/css/2.184f8ef6.chunk.css",
+    "static/js/2.42d20a93.chunk.js": "/colleen-blake-client/static/js/2.42d20a93.chunk.js",
+    "static/js/2.42d20a93.chunk.js.map": "/colleen-blake-client/static/js/2.42d20a93.chunk.js.map",
+    "static/js/3.e80ff6f0.chunk.js": "/colleen-blake-client/static/js/3.e80ff6f0.chunk.js",
+    "static/js/3.e80ff6f0.chunk.js.map": "/colleen-blake-client/static/js/3.e80ff6f0.chunk.js.map",
+    "index.html": "/colleen-blake-client/index.html",
+    "static/css/2.184f8ef6.chunk.css.map": "/colleen-blake-client/static/css/2.184f8ef6.chunk.css.map",
+    "static/css/main.3a72a553.chunk.css.map": "/colleen-blake-client/static/css/main.3a72a553.chunk.css.map",
+    "static/js/2.42d20a93.chunk.js.LICENSE.txt": "/colleen-blake-client/static/js/2.42d20a93.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/colleen-blake-client/static/media/header-bg.60e0d835.jpg",
+    "static/media/leaf.db8f548b.png": "/colleen-blake-client/static/media/leaf.db8f548b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1a3b850.js",
+    "static/css/2.184f8ef6.chunk.css",
+    "static/js/2.42d20a93.chunk.js",
+    "static/css/main.3a72a553.chunk.css",
+    "static/js/main.a9a9974e.chunk.js"
+  ]
+}
