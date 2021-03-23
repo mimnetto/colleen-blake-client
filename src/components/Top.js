@@ -21,7 +21,7 @@ class Top extends React.Component {
       </Fade>
         <Fade direction="down" delay={500} duration={2000}>
           <img className="leaf" src={leaf} alt="Logo" />
-          <h2>Comimg Soon</h2>
+          <h2>Coming Soon</h2>
         </Fade>
     </div>
   </div>
