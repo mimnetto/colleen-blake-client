@@ -4,11 +4,19 @@ import { useSpring, animated, config } from "react-spring";
 import Brand from "./Brand";
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navbar = (props) => {
   const barAnimation = useSpring({
     from: { transform: 'translate3d(0, -10rem, 0)' },
     transform: 'translate3d(0, 0, 0)',
+  });
+
+  const Barbot = useSpring({
+    from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
+    to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
+    delay: 900,
+    config: config.wobbly,
   });
 
   const linkAnimation = useSpring({
@@ -18,17 +26,18 @@ const Navbar = (props) => {
     config: config.wobbly,
   });
 
+
   return (
     <>
       <NavBar style={barAnimation}>
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <a href="/">Wedding</a>
-            <a href="/">Travel</a>
-            <a href="/">Our Story</a>
-            <a href="/">Party</a>
-            <a href="/">Registry</a>
+            <AnchorLink offset='110' href='#wedding'>Wedding</AnchorLink>
+            <AnchorLink offset='120' href='#travel'>Travel</AnchorLink>
+            <AnchorLink offset='120' href='#story'>Our Story</AnchorLink>
+            <AnchorLink offset='120' href='#party'>Party</AnchorLink>
+            <AnchorLink offset='120' href='#registry'>Registry</AnchorLink>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
