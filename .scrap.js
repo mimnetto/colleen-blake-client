@@ -2,7 +2,7 @@ import React from "react";
 import {Fade, Slide} from "react-awesome-reveal";
 import {Container, Row, Col} from 'react-bootstrap';
 import leaf from '../img/leaf.png';
-
+dig WWW.colleenandblake.com +nostats +nocomments +nocmd
 
 class Top extends React.Component {
   render() {
