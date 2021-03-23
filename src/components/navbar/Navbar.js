@@ -28,7 +28,7 @@ const Navbar = (props) => {
             <a href="/">Travel</a>
             <a href="/">Our Story</a>
             <a href="/">Party</a>
-            <a href="/">Resistry</a>
+            <a href="/">Registry</a>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu

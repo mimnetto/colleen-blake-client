@@ -20,7 +20,7 @@ const CollapseMenu = (props) => {
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Travel</a></li>
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Our Story</a></li>
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Party</a></li>
-          <li><a className="burg" href="/" onClick={props.handleNavbar}>Resistry</a></li>
+          <li><a className="burg" href="/" onClick={props.handleNavbar}>Registry</a></li>
         </NavLinks>
       </CollapseWrapper>
     );
