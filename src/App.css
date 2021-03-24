@@ -1,9 +1,8 @@
  @import url("https://use.typekit.net/maf7bgn.css");
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 
  html, body {
-   background-color: #E5E5F7;
-   background-image: radial-gradient(#c3757500 0.25px, #fff 0.25px);
-   background-size: 5px 5px;
+   background-image: url("img/bg.jpg");
  }
 
  Main {
@@ -48,12 +47,11 @@
    }
  }
 
- @media query {}
+ /* @media query {}
 
  .App-link {
    color: #61dafb;
- }
-
+ } */
  @keyframes App-logo-spin {
    from {
      transform: rotate(0deg);
@@ -154,4 +152,36 @@
    font-style: normal;
    font-weight: 400;
    font-size: 24pt;
+ }
+
+ div.Top-Start {
+   margin: 100px 25px;
+   box-sizing: content-box;
+ }
+
+ h1.headp {
+   text-align: center;
+   font-family: al-fresco, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48pt;
+ }
+
+ h2.doko {
+   text-align: center;
+   font-family: rumba-extra, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18pt;
+   margin: 25px 0;
+ }
+
+ .wed-info {
+   background-color: #fff;
+   display: inline;
+   margin: 1%;
+   border-radius: 25px;
+   box-shadow: 5px 5px 5px #00000047;
+   border: 2px solid gold;
+   flex-grow: 1;
  }

@@ -7,7 +7,7 @@ import leaf from '../img/leaf.png';
 class Top extends React.Component {
   render() {
     return (
-  <div className="top-start">
+  <div className="Top-Start">
     <div className="Join-Us">
       <Fade delay={1000} duration={3000}>
       <h1 className="Join-Day">

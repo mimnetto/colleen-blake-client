@@ -3,6 +3,7 @@ import {HashRouter} from "react-router-dom";
 import './App.css';
 import Navbar from "./components/navbar/Navbar";
 import Top from "./components/Top";
+import Wedding from "./components/sections/Wedding";
 import Footer from "./components/Footer";
 import {Fade, Slide} from "react-awesome-reveal";
 import GlobalStyle from './styles/Global';
@@ -30,6 +31,7 @@ class App extends Component {
       </header>
       <main>
       <Top />
+      <Wedding />
       </main>
       <Footer/>
     </div>

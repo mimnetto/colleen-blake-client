@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p.brand {
+  font-family: salamat, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+a.brand {
+  color: #cec79f;
+  border-bottom: 1px solid #cec79f;
+}
