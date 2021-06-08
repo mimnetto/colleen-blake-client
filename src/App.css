@@ -145,6 +145,13 @@
    align-items: center;
    justify-content: center;
  }
+img.logos{
+   width: 15%;
+   display: block;
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+ }
 
  p.slide-name {
    max-width: 50%;
@@ -155,17 +162,44 @@
  }
 
  div.Top-Start {
-   margin: 100px 25px;
+   margin: 75px 25px;
    box-sizing: content-box;
  }
 
  h1.headp {
    text-align: center;
-   font-family: al-fresco, sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 48pt;
+    font-family: itc-galliard, serif;
+    text-transform: uppercase;
+   font-weight: 700;
+   font-size: 29pt;
+   color: #4a0e13;
  }
+
+ @media screen and (max-width: 600px) {
+   h1.headp {
+     font-size: 16pt;
+   }
+ }
+
+ div.background_title {
+    font-family: itc-galliard, serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1 !important;
+    pointer-events: none;
+    user-select: none;
+    opacity: 0.07;
+}
+
+@media screen and (max-width: 600px) {
+ div.background_title {
+    display: none;
+  }
+}
 
  h2.doko {
    text-align: center;
@@ -185,3 +219,43 @@
    border: 2px solid gold;
    flex-grow: 1;
  }
+
+ hr {
+   margin-top: 7%;
+   border: 0;
+   height: 1px;
+   background-image: -webkit-linear-gradient(left, #f0f0f0, #660e16, #f0f0f0);
+ }
+
+ p.info {
+   font-family: kings-caslon, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14pt;
+   text-align: center;
+   padding-top: 25px;
+ }
+
+ a:link {
+  color: #4a0e13;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4a0e13;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #78117D;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}

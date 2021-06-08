@@ -1,23 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { useSpring, animated } from 'react-spring';
 
 const CollapseMenu = (props) => {
-  const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
+  const {open} = useSpring({
+    open: props.navbarState
+      ? 0
+      : 1
+  });
 
   if (props.navbarState === true) {
-    return (
-      <CollapseWrapper style={{
+    return (<CollapseWrapper style={{
         transform: open.interpolate({
-          range: [0, 0.2, 0.3, 1],
-          output: [0, -20, 0, -200],
-        }).interpolate(openValue => `translate3d(0, ${openValue}px, 0`),
-      }}
-      >
+          range: [
+            0, 0.2, 0.3, 1
+          ],
+          output: [0, -20, 0, -200]
+        }).interpolate(openValue => `translate3d(0, ${openValue}px, 0`)
+      }}>
         <NavLinks>
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Wedding</a></li>
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Travel</a></li>
+          <li>
+            <AnchorLink offset={() => 100} href='#hotel' onClick={props.handleNavbar}>Accommodations</AnchorLink>
+</li>
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Our Story</a></li>
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Party</a></li>
           <li><a className="burg" href="/" onClick={props.handleNavbar}>Registry</a></li>

@@ -35,6 +35,7 @@ const Navbar = (props) => {
           <NavLinks style={linkAnimation}>
             <AnchorLink offset='110' href='#wedding'>Wedding</AnchorLink>
             <AnchorLink offset='120' href='#travel'>Travel</AnchorLink>
+            <AnchorLink offset='120' href='#hotel'>Accommodations</AnchorLink>
             <AnchorLink offset='120' href='#story'>Our Story</AnchorLink>
             <AnchorLink offset='120' href='#party'>Party</AnchorLink>
             <AnchorLink offset='120' href='#registry'>Registry</AnchorLink>
