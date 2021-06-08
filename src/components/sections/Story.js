@@ -1,22 +1,29 @@
 import React from "react";
-import {Slide} from "react-awesome-reveal";
 import {Container, Row, Col} from 'react-bootstrap';
 
 
 class Story extends React.Component {
   render() {
     return (
-  <div className="story">
+  <div className="Top-Start">
     <Container>
       <Row>
-        <Col>
-        </Col>
-        <Col>
-        </Col>
-        <Col>
-        </Col>
-      </Row>
-    </Container>
+        <Col className="col-12">
+        <div className="background_title">
+          Our Story
+        </div>
+        <div>
+            <h1 className="headp">
+              Our Story
+            </h1>
+            <p className="more-soon">
+              Coming soon...
+            </p>
+            <br />
+            </div>
+          </Col>
+        </Row>
+        </Container>
   </div>
     );
   }

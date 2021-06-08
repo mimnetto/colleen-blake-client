@@ -20,14 +20,21 @@ const CollapseMenu = (props) => {
         }).interpolate(openValue => `translate3d(0, ${openValue}px, 0`)
       }}>
         <NavLinks>
-          <li><a className="burg" href="/" onClick={props.handleNavbar}>Wedding</a></li>
-          <li><a className="burg" href="/" onClick={props.handleNavbar}>Travel</a></li>
           <li>
-            <AnchorLink offset={() => 100} href='#hotel' onClick={props.handleNavbar}>Accommodations</AnchorLink>
-</li>
-          <li><a className="burg" href="/" onClick={props.handleNavbar}>Our Story</a></li>
-          <li><a className="burg" href="/" onClick={props.handleNavbar}>Party</a></li>
-          <li><a className="burg" href="/" onClick={props.handleNavbar}>Registry</a></li>
+            <AnchorLink className="burg" offset={() => 100} href='#story' onClick={props.handleNavbar}>Our Story</AnchorLink>
+          </li>
+          <li>
+            <AnchorLink className="burg" offset={() => 100} href='#travel' onClick={props.handleNavbar}>Travel</AnchorLink>
+          </li>
+          <li>
+            <AnchorLink className="burg" offset={() => 100} href='#hotel' onClick={props.handleNavbar}>Accommodations</AnchorLink>
+          </li>
+          <li>
+            <AnchorLink className="burg" offset={() => 100} href='#party' onClick={props.handleNavbar}>Party</AnchorLink>
+          </li>
+          <li>
+            <AnchorLink className="burg" offset={() => 100} href='#reg' onClick={props.handleNavbar}>Registry</AnchorLink>
+          </li>
         </NavLinks>
       </CollapseWrapper>
     );

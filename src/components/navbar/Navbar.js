@@ -12,12 +12,6 @@ const Navbar = (props) => {
     transform: 'translate3d(0, 0, 0)',
   });
 
-  const Barbot = useSpring({
-    from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
-    to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
-    delay: 900,
-    config: config.wobbly,
-  });
 
   const linkAnimation = useSpring({
     from: { transform: 'translate3d(0, 30px, 0)', opacity: 0 },
@@ -33,12 +27,11 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <AnchorLink offset='110' href='#wedding'>Wedding</AnchorLink>
+            <AnchorLink offset='120' href='#story'>Our Story</AnchorLink>
             <AnchorLink offset='120' href='#travel'>Travel</AnchorLink>
             <AnchorLink offset='120' href='#hotel'>Accommodations</AnchorLink>
-            <AnchorLink offset='120' href='#story'>Our Story</AnchorLink>
             <AnchorLink offset='120' href='#party'>Party</AnchorLink>
-            <AnchorLink offset='120' href='#registry'>Registry</AnchorLink>
+            <AnchorLink offset='120' href='#reg'>Registry</AnchorLink>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu

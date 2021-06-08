@@ -87,6 +87,13 @@
    font-size: 14pt !important;
  }
 
+ AnchorLink.burg {
+   font-family: kings-caslon, sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 14pt !important;
+ }
+
  img.leaf {
    margin-top: 2%;
  }
@@ -145,8 +152,17 @@
    align-items: center;
    justify-content: center;
  }
-img.logos{
+
+ img.logos {
    width: 15%;
+   display: block;
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ img.reg-pic {
+   width: 50%;
    display: block;
    margin-top: 25px;
    margin-left: auto;
@@ -168,8 +184,9 @@ img.logos{
 
  h1.headp {
    text-align: center;
-    font-family: itc-galliard, serif;
-    text-transform: uppercase;
+   letter-spacing: .5rem;
+   font-family: bookmania, serif;
+   text-transform: uppercase;
    font-weight: 700;
    font-size: 29pt;
    color: #4a0e13;
@@ -182,42 +199,25 @@ img.logos{
  }
 
  div.background_title {
-    font-family: itc-galliard, serif;
-    text-transform: uppercase;
-    font-size: 70px;
-    position: absolute;
-    top: 24px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 1 !important;
-    pointer-events: none;
-    user-select: none;
-    opacity: 0.07;
-}
-
-@media screen and (max-width: 600px) {
- div.background_title {
-    display: none;
-  }
-}
-
- h2.doko {
-   text-align: center;
-   font-family: rumba-extra, sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 18pt;
-   margin: 25px 0;
+   font-family: bookmania, serif;
+   text-transform: uppercase;
+   font-size: 70px;
+   letter-spacing: .5rem;
+   position: absolute;
+   top: 24px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   line-height: 1 !important;
+   pointer-events: none;
+   user-select: none;
+   opacity: 0.07;
+    white-space: nowrap;
  }
 
- .wed-info {
-   background-color: #fff;
-   display: inline;
-   margin: 1%;
-   border-radius: 25px;
-   box-shadow: 5px 5px 5px #00000047;
-   border: 2px solid gold;
-   flex-grow: 1;
+ @media screen and (max-width: 500px) {
+   div.background_title {
+     display: none;
+   }
  }
 
  hr {
@@ -237,25 +237,53 @@ img.logos{
  }
 
  a:link {
-  color: #4a0e13;
-  background-color: transparent;
-  text-decoration: none;
-}
+   color: #4a0e13;
+   background-color: transparent;
+   text-decoration: none;
+ }
 
-a:visited {
-  color: #4a0e13;
-  background-color: transparent;
-  text-decoration: none;
-}
+ a:visited {
+   color: #4a0e13;
+   background-color: transparent;
+   text-decoration: none;
+ }
 
-a:hover {
-  color: #78117D;
-  background-color: transparent;
-  text-decoration: underline;
-}
+ a:hover {
+   color: #78117D;
+   background-color: transparent;
+   text-decoration: underline;
+ }
 
-a:active {
-  color: gold;
-  background-color: transparent;
-  text-decoration: underline;
-}
+ a:active {
+   color: gold;
+   background-color: transparent;
+   text-decoration: underline;
+ }
+
+ p.more-soon {
+   font-family: bookmania, serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 14pt;
+   text-align: center;
+   padding-top: 25px;
+ }
+
+ /* h2.doko {
+   text-align: center;
+   font-family: rumba-extra, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18pt;
+   margin: 25px 0;
+ }
+
+ .wed-info {
+   background-color: #fff;
+   display: inline;
+   margin: 1%;
+   border-radius: 25px;
+   box-shadow: 5px 5px 5px #00000047;
+   border: 2px solid gold;
+   flex-grow: 1;
+ } */

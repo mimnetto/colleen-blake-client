@@ -1,6 +1,5 @@
 import React from "react";
-import {Fade, Slide} from "react-awesome-reveal";
-import {Container, Row, Col} from 'react-bootstrap';
+import {Fade} from "react-awesome-reveal";
 import leaf from '../img/leaf.png';
 
 
@@ -21,7 +20,6 @@ class Top extends React.Component {
       </Fade>
         <Fade direction="down" delay={500} duration={2000}>
           <img className="leaf" src={leaf} alt="Logo" />
-          <hr></hr>
         </Fade>
     </div>
   </div>
