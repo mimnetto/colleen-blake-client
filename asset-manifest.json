@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.62a72398.chunk.css",
-    "main.js": "/static/js/main.f16591b7.chunk.js",
-    "main.js.map": "/static/js/main.f16591b7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.49359c70.js",
-    "runtime-main.js.map": "/static/js/runtime-main.49359c70.js.map",
-    "static/css/2.184f8ef6.chunk.css": "/static/css/2.184f8ef6.chunk.css",
-    "static/js/2.049afea2.chunk.js": "/static/js/2.049afea2.chunk.js",
-    "static/js/2.049afea2.chunk.js.map": "/static/js/2.049afea2.chunk.js.map",
-    "static/js/3.3a217c3e.chunk.js": "/static/js/3.3a217c3e.chunk.js",
-    "static/js/3.3a217c3e.chunk.js.map": "/static/js/3.3a217c3e.chunk.js.map",
+    "main.css": "/static/css/main.4f22df01.chunk.css",
+    "main.js": "/static/js/main.eb308ae0.chunk.js",
+    "main.js.map": "/static/js/main.eb308ae0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8e33e734.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8e33e734.js.map",
+    "static/css/2.7cef8b32.chunk.css": "/static/css/2.7cef8b32.chunk.css",
+    "static/js/2.d095a006.chunk.js": "/static/js/2.d095a006.chunk.js",
+    "static/js/2.d095a006.chunk.js.map": "/static/js/2.d095a006.chunk.js.map",
+    "static/js/3.9ff86261.chunk.js": "/static/js/3.9ff86261.chunk.js",
+    "static/js/3.9ff86261.chunk.js.map": "/static/js/3.9ff86261.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.184f8ef6.chunk.css.map": "/static/css/2.184f8ef6.chunk.css.map",
-    "static/css/main.62a72398.chunk.css.map": "/static/css/main.62a72398.chunk.css.map",
-    "static/js/2.049afea2.chunk.js.LICENSE.txt": "/static/js/2.049afea2.chunk.js.LICENSE.txt",
+    "static/css/2.7cef8b32.chunk.css.map": "/static/css/2.7cef8b32.chunk.css.map",
+    "static/css/main.4f22df01.chunk.css.map": "/static/css/main.4f22df01.chunk.css.map",
+    "static/js/2.d095a006.chunk.js.LICENSE.txt": "/static/js/2.d095a006.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/header-bg.60e0d835.jpg",
     "static/media/leaf.db8f548b.png": "/static/media/leaf.db8f548b.png",
     "static/media/owl-logo.a57e5a44.png": "/static/media/owl-logo.a57e5a44.png",
-    "static/media/snow-logo.c4b0e390.png": "/static/media/snow-logo.c4b0e390.png"
+    "static/media/snow-logo.c4b0e390.png": "/static/media/snow-logo.c4b0e390.png",
+    "static/media/target.eaa0b653.png": "/static/media/target.eaa0b653.png",
+    "static/media/willy-s.2a45fd3e.png": "/static/media/willy-s.2a45fd3e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.49359c70.js",
-    "static/css/2.184f8ef6.chunk.css",
-    "static/js/2.049afea2.chunk.js",
-    "static/css/main.62a72398.chunk.css",
-    "static/js/main.f16591b7.chunk.js"
+    "static/js/runtime-main.8e33e734.js",
+    "static/css/2.7cef8b32.chunk.css",
+    "static/js/2.d095a006.chunk.js",
+    "static/css/main.4f22df01.chunk.css",
+    "static/js/main.eb308ae0.chunk.js"
   ]
 }
