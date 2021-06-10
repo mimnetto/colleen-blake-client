@@ -9,9 +9,9 @@ import Travel from "./components/sections/Travel";
 import Hotel from "./components/sections/Accommodations";
 import Party from "./components/sections/Party";
 import Registry from "./components/sections/Registry";
+import Guest from "./components/sections/Guest";
 import Footer from "./components/Footer";
 import GlobalStyle from './styles/Global';
-
 
 class App extends Component {
   state = {
@@ -31,16 +31,16 @@ class App extends Component {
       <header className="App-header"></header>
       <main>
         <Top/>
-          <Fade>
+        <Fade>
           <hr></hr>
-          </Fade>
+        </Fade>
         <Slide direction="right">
           <section id='story'>
             <Story/>
           </section>
         </Slide>
         <Fade>
-        <hr></hr>
+          <hr></hr>
         </Fade>
         <Slide direction="left">
           <section id='travel'>
@@ -71,6 +71,12 @@ class App extends Component {
             <Registry/>
           </section>
         </Slide>
+        <Fade>
+          <hr></hr>
+        </Fade>
+        <section>
+          <Guest/>
+        </section>
         <Fade>
           <hr></hr>
         </Fade>

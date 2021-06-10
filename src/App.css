@@ -269,6 +269,15 @@
    padding-top: 25px;
  }
 
+.test-border {
+  border: 5px solid red;
+}
+.test-row {
+  border: 5px solid purple;
+}
+.test-blue {
+  border: 5px solid blue;
+}
  /* h2.doko {
    text-align: center;
    font-family: rumba-extra, sans-serif;
