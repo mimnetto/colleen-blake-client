@@ -74,12 +74,6 @@ class App extends Component {
         <Fade>
           <hr></hr>
         </Fade>
-        <section>
-          <Guest/>
-        </section>
-        <Fade>
-          <hr></hr>
-        </Fade>
       </main>
       <Footer/>
     </div>
